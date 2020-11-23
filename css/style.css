@@ -4,16 +4,24 @@
 }
 .copertina{
   background-color: #1abc9c;
-  height: 250px;
+  color: white;
+}
+.img-copertina{
+  text-align: center;
+}
+img {
+ width: 150px;
 }
 .titolo{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
+.titolo::after{
+  
+}
 .sottotitolo{
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 18px;
   text-align: center;
 }
 .row-img{
