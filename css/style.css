@@ -6,3 +6,30 @@
   background-color: #1abc9c;
   height: 250px;
 }
+.titolo{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.sottotitolo{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.row-img{
+  background-color: red;
+  margin: 50px 0;
+}
+.col-md-4 {
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+}
+.about{
+  background-color: #1abc9c;
+}
+.col-md-5{
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+}
