@@ -32,18 +32,14 @@
 .portfolio {
   color: #333;
 }
+.container-img-portfolio{
+  margin-bottom: 20px;
+}
 .row-img{
   margin: 10px 0;
 }
-.img-portfolio:first-child, .img-portfolio:nth-child(4) {
-  margin-left: 20px;
-}
 .img-portfolio{
-  margin-left: 60px;
-  margin-bottom: 20px;
-}
-img{
-  width: 250px;
+  height:181px;
 }
 .about{
   background-color: #1abc9c;
@@ -64,9 +60,53 @@ img{
   border: 1px solid white;
   border-radius: 7px 7px;
 }
-.row-form {
-  height: 150px;
+.row-form{
+  padding-bottom: 40px;
 }
-.form {
-  margin: 50px 0;
+form{
+  text-align: left;
+}
+.elemento-form{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  display: block;
+}
+#message{
+  height: 100px;
+}
+#send{
+  text-align: left;
+}
+#send {
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 5px 5px;
+  border: none;
+}
+.footer{
+  background-color: #3a546d;
+  color: white;
+}
+.information{
+  margin: 40px 0;
+}
+.container-img-footer{
+  display: inline-block;
+}
+.img-footer{
+  width: 35px;
+}
+.footer-title{
+  font-size: 17px;
+}
+.footer-text{
+  padding: 0 5px;
+}
+span {
+  color: #1abc9c;
+}
+.copyright{
+  background-color: #2c3e50;
+  padding: 25px 0;
 }
