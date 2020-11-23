@@ -5,9 +5,12 @@
 .copertina{
   background-color: #1abc9c;
   color: white;
-}
-.img-copertina{
   text-align: center;
+}
+.fa-star::before, .fa-star::after {
+  display: inline-block;
+  width: 100px;
+  border: 1px solid;
 }
 img {
  width: 150px;
@@ -15,10 +18,9 @@ img {
 .titolo{
   font-size: 40px;
   font-weight: bold;
-  text-align: center;
 }
 .titolo::after{
-  
+
 }
 .sottotitolo{
   font-size: 18px;
