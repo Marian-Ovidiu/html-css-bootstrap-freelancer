@@ -1,8 +1,10 @@
 .row{
   text-align: center;
 }
+body .bl-navbar, .copyright{
+  background-color:  #2c3e50;
+}
 body .bl-navbar {
-  background-color: #2c3e50;
   margin: 0;
   border: 0;
   border-radius: 0px;
@@ -17,17 +19,16 @@ body .bl-navbar .navbar-brand {
 body .bl-navbar .navbar-nav > li > a {
   font-weight: bolder;
 }
-body .bl-navbar .navbar-brand:hover,.container-fluid .bl-navbar .navbar-nav > li > a:hover {
+body .bl-navbar .navbar-brand:hover,body .bl-navbar .navbar-nav > li > a:hover, span {
   color: #1ABC9C;
 }
-.navbar {
-  margin: 0;
-}
-.copertina{
+.copertina, .about {
   background-color: #1abc9c;
   color: white;
-  padding-bottom: 40px;
   margin-bottom: 40px;
+}
+.copertina, .row-form{
+  padding-bottom: 40px;
 }
 .icona::before, .icona::after {
   display: inline-block;
@@ -60,14 +61,11 @@ body .bl-navbar .navbar-brand:hover,.container-fluid .bl-navbar .navbar-nav > li
   height:181px;
 }
 .about{
-  background-color: #1abc9c;
-  color: white;
   padding: 40px 0 40px;
-  margin-bottom: 40px;
 }
 .text{
-    margin: 20px 0;
-    text-align: left;
+  margin: 20px 0;
+  text-align: left;
 }
 .download{
   display: inline-block;
@@ -77,9 +75,6 @@ body .bl-navbar .navbar-brand:hover,.container-fluid .bl-navbar .navbar-nav > li
   background-color: transparent;
   border: 1px solid white;
   border-radius: 7px 7px;
-}
-.row-form{
-  padding-bottom: 40px;
 }
 form{
   text-align: left;
@@ -121,11 +116,7 @@ form{
 .footer-text{
   padding: 0 5px;
 }
-span {
-  color: #1abc9c;
-}
 .copyright{
-  background-color: #2c3e50;
   padding: 25px 0;
 }
 .box{
